@@ -20,7 +20,7 @@
  <p>Isi nama dan ketik apapun pada kolom curhat, lalu klik simpan<strong>Simpan</strong> untuk mengirim curhatmu.</p>
  <form method="post" action="index.php" enctype="multipart/form-data" >
        Nama  <input type="text" name="nama" id="nama"/></br></br>
-       Curhat <textarea type="text" name="curhat" id="curhat" rows="10" cols="30"/></br></br>
+       Curhat <textarea type="text" name="curhat" id="curhat" rows="10" cols="30"></textarea></br></br>
        <input type="submit" name="submit" value="Simpan" />
        <input type="submit" name="load_curhat" value="Lihat Curhatan" />
  </form>
