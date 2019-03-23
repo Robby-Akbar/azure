@@ -59,10 +59,12 @@
                 echo "<h2>Orang-orang yang telah curhat:</h2>";
                 echo "<table>";
                 echo "<tr><th>Nama</th>";
-                echo "<th>Isi Curhat</th></tr>";
+                echo "<th>Isi Curhat</th>";
+                echo "<th>Tanggal Curhat</th></tr>";
                 foreach($curhats as $curhats) {
                     echo "<tr><td>".$curhats['nama']."</td>";
-                    echo "<td>".$curhats['textCurhat']."</td></tr>";
+                    echo "<td>".$curhats['textCurhat']."</td>";
+                    echo "<td>".$curhats['tglCurhat']."</td></tr>";
                 }
                 echo "</table>";
             } else {
