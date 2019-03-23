@@ -26,8 +26,8 @@
  </form>
  <?php
     $host = "ibborwebappserver.database.windows.net";
-    $user = "";
-    $pass = "";
+    $user = "ibbor";
+    $pass = "@Gaktaugwlupa0";
     $db = "ibborwebapp";
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
