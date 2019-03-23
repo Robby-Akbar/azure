@@ -17,7 +17,7 @@
  </head>
  <body>
  <h1>Silahkan Curhat Apapun!</h1>
- <p>Isi nama dan ketik apapun pada kolom curhat, lalu klik simpan<strong>Simpan</strong> untuk mengirim curhatmu.</p>
+ <p>Isi nama dan ketik apapun pada kolom curhat, lalu klik <strong>Simpan</strong> untuk mengirim curhatmu.</p>
  <form method="post" action="index.php" enctype="multipart/form-data" >
        Nama  <input type="text" name="nama" id="nama"/></br></br>
        Curhat <textarea type="text" name="curhat" id="curhat" rows="10" cols="30"></textarea></br></br>
@@ -62,7 +62,7 @@
                 echo "<th>Isi Curhat</th></tr>";
                 foreach($curhats as $curhats) {
                     echo "<tr><td>".$curhats['nama']."</td>";
-                    echo "<td>".$curhats['curhat']."</td></tr>";
+                    echo "<td>".$curhats['textCurhat']."</td></tr>";
                 }
                 echo "</table>";
             } else {
